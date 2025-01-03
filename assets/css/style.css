@@ -378,11 +378,26 @@ footer .icons{
 #rooms {
   background-color: #385E51; 
   color: #f0f0f0; 
-  text-align: justify;
 }
 
 #rooms .col-md-4{
   margin-bottom: 16px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.card-body ul {
+  flex-grow: 1;
 }
 
 ul.list-unstyled li {
@@ -558,7 +573,7 @@ ul.list-unstyled li {
   display: flex;
   flex-wrap: nowrap; 
   justify-content: center; 
-  gap: 36px; 
+  gap: 25px; 
 }
 
 .video-item video {
