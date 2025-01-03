@@ -359,19 +359,44 @@ body h2 {
 footer .fab {
   font-size: 1.5rem;
   color: #333;
-  transition: color 0.3s ease;
+}
+
+footer .fas {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+footer .fas:hover {
+  color: #007bff;
+  transform: scale(1.2);
 }
 
 footer .fab:hover {
   color: #007bff;
+  transform: scale(1.2);
+}
+
+footer .fa-whatsapp:hover {
+  color: #25D366; 
+  transform: scale(1.2);
+}
+
+footer a {
+  text-decoration: none; 
+}
+
+footer a:hover {
+  text-decoration: none; 
 }
 
 footer p {
   margin-bottom: 0;
 }
 
-footer .icons{
-  margin-top: 10px;
+@media (max-width: 582px){
+  footer .icons{
+    margin-top: 10px;
+  }
 }
 
 /* Rooms page */
