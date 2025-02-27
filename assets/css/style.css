@@ -14,7 +14,8 @@ body h2 {
 }
 
 .logo {
-  width: 120px;
+  height: 90px;
+  width: auto;
   border-radius: 50px;
   margin-right: 5px;
 }
