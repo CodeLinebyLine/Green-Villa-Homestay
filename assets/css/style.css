@@ -163,6 +163,7 @@ iframe {
 
 .lead {
   font-weight: 400;
+  font-size: var(--body-font-size);
 }
 
 #reviews strong {
