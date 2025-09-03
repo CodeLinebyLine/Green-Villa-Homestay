@@ -161,8 +161,11 @@ iframe {
   color: #272727;
 }
 
+.lead {
+  font-weight: 400;
+}
+
 #reviews strong {
-  font-weight: 500;
   font-style: italic;
 }
 
@@ -445,9 +448,22 @@ ul.list-unstyled li {
   min-height: 80vh;
 }
 
-.involve h2.content {
+.involve h1.content {
   max-width: 700px; 
+  font-family: 'Caveat';
   margin: 2rem auto;  
+}
+
+@media (min-width: 390px){
+  .involve h1.content {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 768px){
+  .involve h1.content {
+    max-width: 750px; 
+  }
 }
 
 /* Gallery page */
