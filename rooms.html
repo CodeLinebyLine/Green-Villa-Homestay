@@ -7,17 +7,18 @@
         <meta name="description" content="Discover the perfect blend of comfort and nature at Green Villa Homestay in Anuradhapura. Experience exceptional hospitality, serene surroundings, and a commitment to sustainability. Book your stay today!">
         <meta name="keywords" content="Green Villa Homestay, Green Villa Anuradhapura, Best Homestay Anuradhapura, Sustainable Accommodation Sri Lanka, Affordable Homestay Anuradhapura, Historical Sites Accommodation Anuradhapura, Eco-Friendly Lodging Sri Lanka, Sacred City Anuradhapura Homestay, Comfortable Family Stay Sri Lanka, Anuradhapura Tourism Accommodation">
         <meta name="author" content="Green Villa Homestay Team">
-        <link rel="icon" href="assets/img/logo.jpeg" type="image/x-icon">
+        <link rel="icon" href="assets/img/logo.jpg" type="image/x-icon">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,300;1,500;1,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Onest:wght@100..900" rel="stylesheet">
         <link href="assets/css/style.css" rel="stylesheet">
     </head>
     <body>
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg py-4">
             <div class="container">
                 <a class="navbar-brand d-flex align-items-center" href="index.html">
                     <img src="assets/img/logo.jpg" alt="Green Villa Logo" class="logo">
@@ -31,7 +32,7 @@
                             <a class="nav-link" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="rooms.html">Rooms</a>
+                            <a class="nav-link active" href="rooms.html">Rooms</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="services.html">Services</a>
@@ -40,13 +41,7 @@
                             <a class="nav-link" href="ourFarm.html">Our Farm</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="explore.html">Discover Anuradhapura</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link" href="gallery.html">Gallery</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -56,31 +51,30 @@
         <!-- Rooms Section -->
         <section id="rooms" class="py-5">
             <div class="container">
-                <h2 class="text-center mb-5">Our Rooms</h2>
+                <h2 class="mb-5">Our Rooms</h2>
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-6 col-lg-4">
                         <div class="card">
-                            <div class="roomgallery">
+                            <div>
                                 <img src="assets/img/room1.jpeg" class="card-img-top" alt="Triple Room">
                             </div>
                             <div class="card-body">
-                                <h5 class="card-title">Triple Room</h5>
-                                <small class="card-text">1 King Bed, Private outside bathroom.</small>
-                                <ul class="list-unstyled text-success small">
+                                <h5>Triple Room</h5>
+                                <small>1 King bed, Private outside bathroom.</small>
+                                <ul class="list-unstyled small">
                                     <li>&#10003; Private entrance</li>
                                     <li>&#10003; Toilet, toilet paper, shower</li>
-                                    <li>&#10003; Clothes rack &#10003; Socket near the bed &#10003; Mosquito net</li>
+                                    <li>&#10003; Clothes rack &#10003; Socket near bed &#10003; Net</li>
                                     <li>&#10003; Ironing facilities &#10003; Electric kettle</li>
                                     <li>&#10003; Fan</li>
-                                    <li>HAS ALWAYS THE LOWEST PRICE</li>
                                 </ul>
-                                <a href="https://www.booking.com/hotel/lk/green-villa-anuradhapura.html?checkin=2025-01-12&checkout=2025-01-19&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&lang=en-us&soz=1&lang_changed=1&activeTab=main#room_271801314" class="btn btn-primary">Book Now</a>
+                                <a href="https://www.booking.com/hotel/lk/green-villa-anuradhapura.html?checkin=2025-01-12&checkout=2025-01-19&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&lang=en-us&soz=1&lang_changed=1&activeTab=main#room_271801314" class="btn btn-primary" target="_blank">Book Now</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-6 col-lg-4">
                         <div class="card">
-                            <div id="carousel1" class="carousel slide roomgallery" data-bs-ride="carousel">
+                            <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
                                         <img src="assets/img/room2.jpeg" class="d-block w-100" alt="Deluxe Double Room">
@@ -99,23 +93,22 @@
                                 </button>
                             </div>
                             <div class="card-body">
-                                <h5 class="card-title">Deluxe Double Room</h5>
-                                <small class="card-text">2 full beds, Private bathroom, Air conditioning, Balcony.</small>
-                                <ul class="list-unstyled text-success small">
+                                <h5>Deluxe X2 Room with Balcony</h5>
+                                <small>2 full beds, Private bathroom.</small>
+                                <ul class="list-unstyled small">
                                     <li>&#10003; Private entrance &#10003; Balcony view</li>
                                     <li>&#10003; Toilet, toilet paper, bathtub or shower</li>
-                                    <li>&#10003; Clothes rack &#10003; Socket near the bed &#10003; Mosquito net</li>
+                                    <li>&#10003; Clothes rack &#10003; Socket near bed &#10003; Net</li>
                                     <li>&#10003; Ironing facilities &#10003; Electric kettle</li>
                                     <li>&#10003; Fan &#10003; Air conditioning</li>
-                                    <li>&#10003; Tile/Marble floor</li>
                                 </ul>
-                                <a href="https://www.booking.com/hotel/lk/green-villa-anuradhapura.html?checkin=2025-01-12&checkout=2025-01-19&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&lang=en-us&soz=1&lang_changed=1&activeTab=main#room_271801313" class="btn btn-primary">Book Now</a>
+                                <a href="https://www.booking.com/hotel/lk/green-villa-anuradhapura.html?checkin=2025-01-12&checkout=2025-01-19&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&lang=en-us&soz=1&lang_changed=1&activeTab=main#room_271801313" class="btn btn-primary" target="_blank">Book Now</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-lg-4">
                         <div class="card">
-                            <div id="carousel2" class="carousel slide roomgallery" data-bs-ride="carousel">
+                            <div id="carousel2" class="carousel slide" data-bs-ride="carousel">
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
                                         <img src="assets/img/room3.jpeg" class="d-block w-100" alt="Family Room">
@@ -134,41 +127,41 @@
                                 </button>
                             </div>
                             <div class="card-body">
-                                <h5 class="card-title">Family Room</h5>
-                                <small class="card-text">1 full & 1 king beds, Private bathroom, Balcony.</small>
-                                <ul class="list-unstyled text-success small">
+                                <h5>Family Room with Balcony</h5>
+                                <small>1 full & 1 King beds, Private bathroom.</small>
+                                <ul class="list-unstyled small">
                                     <li>&#10003; Private entrance &#10003; Balcony view</li>
                                     <li>&#10003; Toilet, toilet paper, bathtub or shower</li>
-                                    <li>&#10003; Clothes rack &#10003; Socket near the bed &#10003; Mosquito net</li>
+                                    <li>&#10003; Clothes rack &#10003; Socket near bed &#10003; Net</li>
                                     <li>&#10003; Ironing facilities &#10003; Electric kettle</li>
                                     <li>&#10003; Fan</li>
-                                    <li>&#10003; Tile/Marble floor</li>
                                 </ul>
-                                <a href="https://www.booking.com/hotel/lk/green-villa-anuradhapura.html?checkin=2025-01-12&checkout=2025-01-19&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&lang=en-us&soz=1&lang_changed=1&activeTab=main#room_271801309" class="btn btn-primary">Book Now</a>
+                                <a href="https://www.booking.com/hotel/lk/green-villa-anuradhapura.html?checkin=2025-01-12&checkout=2025-01-19&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&lang=en-us&soz=1&lang_changed=1&activeTab=main#room_271801309" class="btn btn-primary" target="_blank">Book Now</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-lg-6">
                         <div class="card">
-                            <div class="roomgallery">
+                            <div>
                                 <img src="assets/img/room4.jpeg" class="card-img-top" alt="Deluxe Family Room">
                             </div>
                             <div class="card-body">
-                                <h5 class="card-title">Deluxe Family Room</h5>
-                                <small class="card-text">1 full & 1 queen beds, Private bathroom, Balcony.</small>
-                                <ul class="list-unstyled text-success small">
+                                <h5>Deluxe Family Room with Balcony</h5>
+                                <small>1 full & 1 queen beds, Private bathroom.</small>
+                                <ul class="list-unstyled small">
                                     <li>&#10003; Private entrance &#10003; Balcony view</li>
                                     <li>&#10003; Toilet, toilet paper, bathtub or shower</li>
-                                    <li>&#10003; Clothes rack &#10003; Socket near the bed &#10003; Mosquito net</li>
+                                    <li>&#10003; Clothes rack &#10003; Socket near bed &#10003; Net</li>
                                     <li>&#10003; Ironing facilities &#10003; Electric kettle</li>
                                     <li>&#10003; Fan</li>
-                                    <li>&#10003; Tile/Marble floor</li>
                                 </ul>
-                                <a href="https://www.booking.com/hotel/lk/green-villa-anuradhapura.html?checkin=2025-01-12&checkout=2025-01-19&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&lang=en-us&soz=1&lang_changed=1&activeTab=main#room_271801310" class="btn btn-primary">Book Now</a>
+                                <a href="https://www.booking.com/hotel/lk/green-villa-anuradhapura.html?checkin=2025-01-12&checkout=2025-01-19&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&lang=en-us&soz=1&lang_changed=1&activeTab=main#room_271801310" class="btn btn-primary" target="_blank">Book Now</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-6 col-lg-6">
                         <div class="card">
                             <div id="carousel3" class="carousel slide roomgallery" data-bs-ride="carousel">
                                 <div class="carousel-inner">
@@ -179,168 +172,74 @@
                                     <img src="assets/img/room5b.jpg" class="d-block w-100" alt="Superior Family Room">
                                 </div>
                             </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Previous</span>
                             </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+                            <button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Next</span>
                             </button>
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">Superior Family Room</h5>
-                            <small class="card-text">1 full & 1 queen beds, Private bathroom, Air conditioning.</small>
-                            <ul class="list-unstyled text-success small">
+                            <h5>Superior Family Room</h5>
+                            <small>1 full & 1 Queen beds, Private bathroom.</small>
+                            <ul class="list-unstyled small">
                                 <li>&#10003; Private entrance </li>
                                 <li>&#10003; Toilet, toilet paper, towels bathtub or shower</li>
-                                <li>&#10003; Clothes rack &#10003; Socket near the bed &#10003; Mosquito net</li>
+                                <li>&#10003; Clothes rack &#10003; Socket near bed &#10003; Net</li>
                                 <li>&#10003; Ironing facilities &#10003; Electric kettle</li>
                                 <li>&#10003; Fan &#10003; Air conditioning</li>
-                                <li>&#10003; Tile/Marble floor</li>
                             </ul>
-                            <a href="https://www.booking.com/hotel/lk/green-villa-anuradhapura.html?checkin=2025-01-12&checkout=2025-01-19&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&lang=en-us&soz=1&lang_changed=1&activeTab=main#room_271801311" class="btn btn-primary">Book Now</a>
+                            <a href="https://www.booking.com/hotel/lk/green-villa-anuradhapura.html?checkin=2025-01-12&checkout=2025-01-19&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&lang=en-us&soz=1&lang_changed=1&activeTab=main#room_271801311" class="btn btn-primary" target="_blank">Book Now</a>
                         </div>
                     </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Reviews Section -->
-        <section id="reviews" class="py-5" style="background-color: #f0f0f0;">
-            <div class="container">
-                <h2>Guest Reviews</h2>
-                <h6>(from <a href="https://www.booking.com/hotel/lk/green-villa-anuradhapura.html"> Booking.com</a>)</h6>
-                <br>
-                <div class="carousel slide" id="reviewsCarousel" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <p class="lead">
-                                "The host is warm, happy and involved to make your stay as pleasant as possible. Homemade food was delicious and Thushari always tries to use ecological products.
-                                Her house was one of the few where i slept without any disturbances by outside noise. Would definitely repeat if coming back to Anuradhapura. Thank you for everything!”
-                            </p>
-                            <p><strong>Liina</strong>, Sweden</p>
-                        </div>
-                        <div class="carousel-item">
-                            <p class="lead">
-                                "The room was super comfortable in a nice location, a bit outside the centre, so very quiet. It also had a nice balcony.
-                                The breakfast was delicious, especially on the day the owner was there. The owner is very warm and friendly."
-                            </p>
-                            <p><strong>Sonia</strong>, Portugal</p>
-                        </div>
-                        <div class="carousel-item">
-                            <p class="lead">
-                                "Beautiful old Villa located in a quiet and friendly neighborhood. 
-                                Its a short ride by tuk tuk or 35 mins by walk to new bus station. 
-                                Big shop is only 10 mins by walk. We were lucky to meet the whole family, it was easy and fun to talk to them. 
-                                They prepared unique and delicious sri lankas breakfast for us. Thank you for letting us stay."
-                            </p>
-                            <p><strong>Michal</strong>, Czech Republic</p>
-                        </div>
-                        <div class="carousel-item">
-                            <p class="lead">
-                                "This is a wonderful place, very pretty house and clean room with comfy bed and nice balcony. 
-                                The host was lovely and made a great big breakfast every morning."
-                            </p>
-                            <p><strong>Luke</strong>, United Kingdom</p>
-                        </div>
-                        <div class="carousel-item">
-                            <p class="lead">
-                                "The room is simple but has everything. The host is very nice, knows a lot about the environment and more about food. The whole house felt very hospitable and you could walk into the kitchen, which made it feel homely. In addition, breakfast and dinner every day was different and very tasty!
-                                <br><br>
-                                The location is a bit away from the center, but this creates a quiet place to relax."
-                            </p>
-                            <p><strong>Meiki</strong>, Netherlands</p>
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#reviewsCarousel" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon"></span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#reviewsCarousel" data-bs-slide="next">
-                        <span class="carousel-control-next-icon"></span>
-                    </button>
                 </div>
             </div>
         </section>
 
         <!-- Contact Section -->
-        <section id="contact" class="py-5" style="background-color: #385E51; color: #f0f0f0;">
+        <section class="contact py-5">
             <div class="container">
                 <h2 class="mb-4">Contact Us</h2>
-                <div class="row">
-                    <div class="col-md-8 mb-4" style="font-size: 1.2rem;">
-                        Please contact us below for accommodation, or alternatively check availability using our online booking system.
-                    </div>
-                    <div class="button col-md-4 mb-4">
-                        <a href="https://www.booking.com/hotel/lk/green-villa-anuradhapura.it.html" target="_blank" class="btn btn-primary btn-lg">
-                            CHECK AVAILABILITY
-                        </a>
-                    </div>
+                <div class="mb-4">
+                    Please email us for accommodation, or alternatively <a href="https://www.booking.com/hotel/lk/green-villa-anuradhapura.it.html" target="_blank">
+                    CHECK AVAILABILITY</a> using our online booking system.
                 </div>
-                <div class="row">
-                    <div class="col-md-6 mb-4">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3947.920750773425!2d80.41590707426148!3d8.310674399820861!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3afcf56b02925b71%3A0x3aaaf9f975eddb2!2sGreen%20Villa%20Homestay!5e0!3m2!1sit!2sie!4v1735584811681!5m2!1sit!2sie" style="border:0; width: 100%; height: 300px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-                        </iframe>
-                    </div>
-                    <div class="col md-6">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <p><strong>Address:</strong></p>
-                                <p>No K8, Air Port Road, Nuwara Wewa Mawatha, 20000 Anuradhapura, Sri Lanka</p>
-                                <p>
-                                    <i class="fab fa-whatsapp clickable-icon" style="color: green; margin-right: 5px;"></i> 
-                                    <a href="https://wa.me/94718572786" target="_blank" style="color: #f0f0f0;">
-                                        <strong>Manager:</strong> +94 0718572786
-                                    </a>
-                                </p>
-                                <p>
-                                    <i class="fab fa-whatsapp clickable-icon" style="color: green; margin-right: 5px;"></i> 
-                                    <a href="https://wa.me/94778598588" target="_blank" style="color: #f0f0f0;">
-                                        <strong>Owner:</strong> +94 077 8598588
-                                    </a>
-                                </p>
-                                <p><u><strong>Land line:</strong> +94 0252054336</u></p>
-                            </div>
-                            <div class="col-md-6">
-                                <p><strong>Email 1:</strong> gunasekaracj@yahoo.com</p>
-                                <p><strong>Email 2:</strong> kahingalait@gmail.com</p>
-                                <form action="mailto:gunasekaracj@yahoo.com,kahingalait@gmail.com" method="POST" enctype="text/plain" class="mt-3">
-                                    <button type="submit" class="btn btn-primary btn-lg">Drop us an email</button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
+                <div class="mb-4">
+                    <p><i class="bi bi-envelope-fill" aria-hidden="true"></i> <strong>Email 1:</strong> gunasekaracj@yahoo.com</p>
+                    <p><i class="bi bi-envelope-fill" aria-hidden="true"></i> <strong>Email 2:</strong> kahingalait@gmail.com</p>
+                </div>
+                <div class="mb-4">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3947.920750773425!2d80.41590707426148!3d8.310674399820861!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3afcf56b02925b71%3A0x3aaaf9f975eddb2!2sGreen%20Villa%20Homestay!5e0!3m2!1sit!2sie!4v1735584811681!5m2!1sit!2sie" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+                <div>
+                    <p><strong>Address:</strong></p>
+                    <p>No K8, Air Port Road, Nuwara Wewa Mawatha, 20000 Anuradhapura, Sri Lanka</p>
                 </div>
             </div>
         </section>
                 
-        <!-- Footer Section -->
-        <footer class="footer bg-light py-3">
+        <!-- Footer -->
+        <footer class="footer py-4">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-md-6 col-sm-12 text-md-start text-center mb-sm-2">
-                        <p class="mb-0">&copy; 2024 Green Villa Homestay. All rights reserved.</p>
+                        <p class="mb-0">&copy; 2025 Green Villa Homestay</p>
                     </div>
                     <div class="icons col-md-6 col-sm-12 text-md-end text-center">
                         <a href="https://wa.me/94718572786" target="_blank" class="me-3" title="Contact Manager on WhatsApp" aria-label="Contact Manager on WhatsApp">
                             <i class="fab fa-whatsapp fa-lg"></i>
                         </a>
-                        <a href="https://wa.me/94778598588" target="_blank" class="me-3" title="Contact Owner on WhatsApp" aria-label="Contact Owner on WhatsApp">
-                            <i class="fab fa-whatsapp fa-lg"></i>
-                        </a>
-                        <a href="https://www.facebook.com/p/Green-villa-in-Anuradhapura-100082976090631/" target="_blank" class="text-white me-3" title="Green Villa Homestay Facebook" aria-label="Green Villa Homestay Facebook">
+                        <a href="https://www.facebook.com/p/Green-villa-in-Anuradhapura-100082976090631/" target="_blank" class="me-3" title="Green Villa Homestay Facebook" aria-label="Green Villa Homestay Facebook">
                             <i class="fab fa-facebook-f"></i>
                         </a>
-                        <a href="https://www.facebook.com/gimhana.farmstay" target="_blank" class="text-white me-3" title="Gimhana Farmstay Facebook" aria-label="Gimhana Farmstay Facebook">
-                            <i class="fab fa-facebook-f"></i>
+                        <a href="https://www.booking.com/hotel/lk/green-villa-anuradhapura.it.html" target="_blank" class="booking me-3" title="Green Villa Homestay Booking" aria-label="Green Villa Homestay Booking">
+                            <img src="assets/img/bookingcom.svg" alt="Green Villa Homestay Booking.com">
                         </a>
-                        <a href="https://www.booking.com/hotel/lk/green-villa-anuradhapura.it.html" target="_blank" class="me-3" title="Green Villa Homestay Booking" aria-label="Green Villa Homestay Booking">
-                            <img src="assets/img/bookingcom.svg" alt="Green Villa Homestay Booking.com" style="width: 28px; height: 28px; margin-bottom: 8px;">
-                        </a>
-                        <a href="https://www.booking.com/hotel/lk/gimhana-farmstay.it.html?aid=356980&label=gog235jc-1DCAsohQFCEGdpbWhhbmEtZmFybXN0YXlIM1gDaHGIAQGYARS4ARfIAQzYAQPoAQGIAgGoAgO4Ap6-47sGwAIB0gIkNWJiZWY1ZjEtZjkyOC00ODA1LTllZWYtMDY3NGI0YmFjMDli2AIE4AIB&sid=1ec9d9bcd992e78f577ffa79afdb9b1d&dist=0&keep_landing=1&sb_price_type=total&type=total&" target="_blank" class="me-3" title="Gimhana Farmstay Booking" aria-label="Gimhana Farmstay Booking">
-                            <img src="assets/img/bookingcom.svg" alt="Gimhana Farmstay Booking.com" style="width: 28px; height: 28px; margin-bottom: 8px;">
-                        </a>
-                        <a href="https://www.airbnb.it/rooms/607505858522884581?check_in=2025-01-17&check_out=2025-01-22&guests=1&adults=12&s=67&unique_share_id=da97b780-fa2d-460b-8833-dc6fbdc105dd" target="_blank" class="me-3" title="Airbnb" aria-label="Green Villa Homestay Airbnb">
+                        <a href="https://www.airbnb.it/rooms/607505858522884581?check_in=2025-01-17&check_out=2025-01-22&guests=1&adults=12&s=67&unique_share_id=da97b780-fa2d-460b-8833-dc6fbdc105dd" target="_blank" title="Airbnb" aria-label="Green Villa Homestay Airbnb">
                             <i class="fab fa-airbnb fa-lg"></i>
                         </a>
                     </div>
